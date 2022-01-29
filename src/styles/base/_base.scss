@@ -19,7 +19,7 @@ select.form-select-lg {
 	border: 1px solid #d9d9d9;
 	border-radius: 6px;
 	outline: none;
-	padding-left: 30px;
+	padding: 0 30px;
 
 	color: #203346;
 	font-weight: 500;
@@ -41,11 +41,27 @@ select.form-select-lg {
 	}
 }
 
+.btn-outline {
+	height: 60px;
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	border-radius: 6px;
+	color: #2a9bd4;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 0 30px;
+
+	&:hover {
+		background: #2a9bd4;
+		color: #fff;
+	}
+}
+
 @include tablet-screen {
 	input.form-control-lg,
 	select.form-select-lg {
 		height: 50px;
-		padding-left: 30px;
+		padding: 0 20px;
 
 		&::placeholder {
 			font-size: 16px;
@@ -55,5 +71,11 @@ select.form-select-lg {
 	.btn-primary {
 		font-size: 16px;
 		height: 50px;
+	}
+
+	.btn-outline {
+		height: 50px;
+		font-size: 16px;
+		padding: 0 20px;
 	}
 }
