@@ -12,6 +12,7 @@ import VerificationsTools from './pages/VerificationsTools'
 import Page10 from './pages/Page10'
 import Page11 from './pages/Page11'
 import Page12 from './pages/Page12'
+import Page13 from './pages/Page13'
 
 function App() {
 	return (
@@ -29,7 +30,8 @@ function App() {
 					<Route path="/verification-tools" element={<VerificationsTools />} /> {/* page 9 */}
 					<Route path="/page-10" element={<Page10 />} /> {/* page 10 */}
 					<Route path="/page-11" element={<Page11 />} /> {/* page 11 */}
-					<Route path="/page-12" element={<Page12 />} /> {/* page 11 */}
+					<Route path="/page-12" element={<Page12 />} /> {/* page 12 */}
+					<Route path="/page-13" element={<Page13 />} /> {/* page 13 */}
 				</Routes>
 			</Router>
 		</div>
