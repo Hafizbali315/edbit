@@ -51,3 +51,39 @@
 		}
 	}
 }
+
+@include tablet-screen {
+	.settings_menu {
+		margin: 20px;
+		padding: 15px 0;
+		max-width: 300px;
+
+		ul {
+			li {
+				padding: 7px 20px;
+
+				.text {
+					font-size: 15px;
+				}
+
+				.icon_container {
+					.icon {
+						font-size: 22px;
+					}
+				}
+			}
+
+			li.active {
+				.text {
+					font-size: 16px;
+				}
+
+				.icon_container {
+					.icon {
+						font-size: 22px;
+					}
+				}
+			}
+		}
+	}
+}

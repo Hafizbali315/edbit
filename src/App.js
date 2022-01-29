@@ -8,6 +8,7 @@ import SetupOrganization from './pages/SetupOrganization'
 import CertifyDocument from './pages/CertifyDocument'
 import CreditsLeftCard from './components/CreditsLeftCard'
 import SettingsMenu from './components/SettingsMenu'
+import VerificationsTools from './pages/VerificationsTools'
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 					<Route path="/certify-document" element={<CertifyDocument />} /> {/* Page 6 */}
 					<Route path="/credits-left" element={<CreditsLeftCard />} /> {/* page 7 */}
 					<Route path="/settings-menu" element={<SettingsMenu />} /> {/* page 8 */}
+					<Route path="/verification-tools" element={<VerificationsTools />} /> {/* page 9 */}
 				</Routes>
 			</Router>
 		</div>
