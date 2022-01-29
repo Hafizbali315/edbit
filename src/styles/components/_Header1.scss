@@ -1,0 +1,60 @@
+.header1 {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.logo {
+		img {
+			width: 200px;
+			height: 50px;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		justify-content: flex-end;
+
+		li {
+			cursor: pointer;
+
+			.link {
+				color: #2a9bd4;
+			}
+		}
+	}
+
+	.hamburger_menu {
+		display: none;
+	}
+}
+
+@include tablet-screen {
+	.header1 {
+		padding: 20px 0;
+
+		.logo {
+			img {
+				width: 128px;
+				height: 32px;
+			}
+		}
+
+		ul {
+			display: none;
+		}
+
+		.hamburger_menu {
+			display: block;
+
+			.icon {
+				font-size: 20px;
+			}
+		}
+	}
+}

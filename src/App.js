@@ -9,6 +9,7 @@ import CertifyDocument from './pages/CertifyDocument'
 import CreditsLeftCard from './components/CreditsLeftCard'
 import SettingsMenu from './components/SettingsMenu'
 import VerificationsTools from './pages/VerificationsTools'
+import Page10 from './pages/Page10'
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 					<Route path="/credits-left" element={<CreditsLeftCard />} /> {/* page 7 */}
 					<Route path="/settings-menu" element={<SettingsMenu />} /> {/* page 8 */}
 					<Route path="/verification-tools" element={<VerificationsTools />} /> {/* page 9 */}
+					<Route path="/page-10" element={<Page10 />} /> {/* page 10 */}
 				</Routes>
 			</Router>
 		</div>

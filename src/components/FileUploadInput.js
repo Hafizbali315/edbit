@@ -1,6 +1,6 @@
-const FileUploadInput = ({ heading, text, icon }) => {
+const FileUploadInput = ({ heading, text, icon, background }) => {
 	return (
-		<div className="file_input">
+		<div className="file_input" style={{ background: background }}>
 			<input type="file" />
 
 			<div className="input_placeholder">
