@@ -1,0 +1,59 @@
+.credits_left_card {
+	padding: 30px;
+	background: #ffffff;
+	box-shadow: 6px 4px 80px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+	max-width: 450px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 25px;
+
+	.img_container {
+		img {
+			width: 38px;
+			height: 38px;
+		}
+	}
+
+	.text_section {
+		h5 {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 160%;
+			color: #313131;
+		}
+
+		p {
+			font-size: 15px;
+			line-height: 120%;
+			color: #313131;
+			margin-bottom: 0;
+		}
+	}
+}
+
+@include tablet-screen {
+	.credits_left_card {
+		padding: 20px;
+
+		max-width: 400px;
+		gap: 15px;
+
+		.img_container {
+			img {
+				width: 32px;
+				height: 32px;
+			}
+		}
+
+		.text_section {
+			h5 {
+				font-size: 18px;
+			}
+
+			p {
+				font-size: 15px;
+			}
+		}
+	}
+}
