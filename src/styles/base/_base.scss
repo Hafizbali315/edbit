@@ -57,6 +57,13 @@ select.form-select-lg {
 	}
 }
 
+.row {
+	margin: 0;
+}
+.col {
+	padding: 0;
+}
+
 @include tablet-screen {
 	input.form-control-lg,
 	select.form-select-lg {

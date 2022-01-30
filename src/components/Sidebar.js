@@ -27,7 +27,7 @@ const Sidebar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link to="/app-configurations" className="link">
+						<Link to="/app-configuration" className="link">
 							App Configurations
 						</Link>
 					</li>

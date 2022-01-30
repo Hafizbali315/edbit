@@ -15,6 +15,7 @@ import Page12 from './pages/Page12'
 import Page13 from './pages/Page13'
 import Page15 from './pages/Page15'
 import Plans from './pages/Plans'
+import AppConfiguration from './pages/AppConfiguration'
 
 function App() {
 	return (
@@ -36,6 +37,7 @@ function App() {
 					<Route path="/page-13" element={<Page13 />} /> {/* page 13 */}
 					<Route path="/page-15" element={<Page15 />} /> {/* page 15 */}
 					<Route path="/plans" element={<Plans />} /> {/* page 16 */}
+					<Route path="/app-configuration" element={<AppConfiguration />} /> {/* page 17 */}
 				</Routes>
 			</Router>
 		</div>
