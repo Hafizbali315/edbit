@@ -7,7 +7,7 @@ const Plans = () => {
 			<Header2 />
 
 			<div className="row content_row">
-				<div className="col col-lg-3">
+				<div className="col col-lg-3  d-lg-block d-none">
 					<Sidebar />
 				</div>
 				<div className="col col-lg-9">

@@ -6,7 +6,7 @@ const AppConfiguration = () => {
 			<Header2 />
 
 			<div className="row">
-				<div className="col-lg-3 col">
+				<div className="col-lg-3 col d-lg-block d-none">
 					<Sidebar />
 				</div>
 				<div className="col-lg-9 col">
