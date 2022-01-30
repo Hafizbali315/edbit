@@ -13,6 +13,7 @@ import Page10 from './pages/Page10'
 import Page11 from './pages/Page11'
 import Page12 from './pages/Page12'
 import Page13 from './pages/Page13'
+import Page15 from './pages/Page15'
 
 function App() {
 	return (
@@ -32,6 +33,7 @@ function App() {
 					<Route path="/page-11" element={<Page11 />} /> {/* page 11 */}
 					<Route path="/page-12" element={<Page12 />} /> {/* page 12 */}
 					<Route path="/page-13" element={<Page13 />} /> {/* page 13 */}
+					<Route path="/page-15" element={<Page15 />} /> {/* page 15 */}
 				</Routes>
 			</Router>
 		</div>

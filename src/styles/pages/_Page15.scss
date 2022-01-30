@@ -1,0 +1,174 @@
+.page_15 {
+	position: relative;
+	width: 100%;
+
+	.page_15_content {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.upper_card {
+			width: 60vw;
+			background: #ffffff;
+			box-shadow: 12px 4px 165px rgba(0, 0, 0, 0.08);
+			padding: 40px;
+
+			.certify_row {
+				display: flex;
+				gap: 15px;
+				justify-content: center;
+
+				.text {
+					h5 {
+						margin: 4px 0 0 0;
+						text-align: left;
+						font-weight: bold;
+						font-size: 18px;
+						line-height: 27px;
+						color: #203346;
+					}
+					p {
+						margin-top: 5px;
+						font-size: 16px;
+						line-height: 27px;
+						color: #203346;
+						opacity: 0.8;
+					}
+				}
+			}
+
+			.input_container {
+				margin-top: 20px;
+				display: flex;
+				justify-content: center;
+			}
+		}
+
+		.lower {
+			margin-top: 50px;
+
+			h5 {
+				font-weight: 600;
+				font-size: 22px;
+				line-height: 190%;
+				color: #203346;
+			}
+
+			.lower_card {
+				box-shadow: 12px 4px 165px rgba(0, 0, 0, 0.08);
+				background: #fff;
+				width: 100%;
+				padding: 10px;
+
+				.table-responsive {
+					&::-webkit-scrollbar {
+						display: none;
+					}
+					.table {
+						margin: 0 20px;
+						text-align: left;
+						thead {
+							tr {
+								border-bottom: 2px solid #c9c7c7;
+							}
+						}
+
+						tr {
+							line-height: 35px;
+
+							td {
+								.icon {
+									color: #2a9bd4;
+									font-size: 20px;
+									margin-top: -4px;
+									margin-left: 5px;
+								}
+								span {
+									background: #a2daf7;
+									border-radius: 6px;
+									color: red;
+									padding: 10px 15px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include tablet-screen {
+	.page_15 {
+		.page_15_content {
+			.upper_card {
+				width: 90vw;
+				padding: 20px;
+
+				.certify_row {
+					gap: 10px;
+					.text {
+						h5 {
+							margin: 4px 0 0 0;
+							font-size: 18px;
+						}
+						p {
+							font-size: 15px;
+						}
+					}
+				}
+
+				.input_container {
+					margin-top: 15px;
+				}
+			}
+
+			.lower {
+				width: 90vw;
+				margin-top: 40px;
+
+				h5 {
+					font-size: 20px;
+				}
+
+				.lower_card {
+					.table-responsive {
+						&::-webkit-scrollbar {
+							display: none;
+						}
+						.table {
+							margin: 0;
+							text-align: left;
+							thead {
+								tr {
+									border-bottom: 2px solid #c9c7c7;
+								}
+							}
+
+							tr {
+								line-height: 35px;
+
+								td {
+									.icon {
+										color: #2a9bd4;
+										font-size: 20px;
+										margin-top: -4px;
+										margin-left: 5px;
+									}
+									span {
+										background: #a2daf7;
+										border-radius: 6px;
+										color: red;
+										padding: 10px 15px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
