@@ -62,9 +62,7 @@
 					}
 					p {
 						margin-top: 5px;
-						font-size: 16px;
 						line-height: 27px;
-						color: #203346;
 						opacity: 0.8;
 					}
 				}
@@ -86,10 +84,10 @@
 			background: #2a9bd4;
 			border-radius: 6px;
 			padding: 20px;
-			color: #fff;
 
 			.text {
 				h5 {
+					color: #fff;
 					font-size: 20px;
 					font-weight: bold;
 				}
@@ -97,6 +95,7 @@
 				p {
 					font-size: 15px;
 					font-weight: 500;
+					color: #fff;
 				}
 			}
 		}

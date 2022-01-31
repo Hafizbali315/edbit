@@ -2,7 +2,6 @@ import SignupImage from '../assets/SignupImage.png'
 import Logo from '../assets/Logo.png'
 
 import { BsFillCheckSquareFill } from 'react-icons/bs'
-import CustomInput from './../components/CustomInput'
 
 import MicroSoftIcon from '../assets/MicroSoftIcon.png'
 import { Link } from 'react-router-dom'
@@ -51,6 +50,7 @@ const Signup = () => {
 						</div>
 					</div>
 				</div>
+
 				<div className="col-lg-6 col-12 order-1 order-lg-2">
 					<div className="signup_card">
 						<h1>Sign Up</h1>
@@ -58,11 +58,11 @@ const Signup = () => {
 
 						<form className="signup_form">
 							<div className="input_row">
-								<CustomInput type="text" placeholder="name" />
-								<CustomInput type="text" placeholder="email" />
+								<input class="form-control form-control-lg mb-4" type="text" placeholder="Name" />
+								<input class="form-control form-control-lg mb-4" type="text" placeholder="Email" />
 							</div>
 
-							<CustomInput type="password" placeholder="password" />
+							<input class="form-control form-control-lg mb-4" type="password" placeholder="Password" />
 
 							<div className="checkbox_row">
 								<input type="checkbox" />

@@ -13,7 +13,7 @@ const Page10 = () => {
 				<p>Folder name</p>
 
 				<div className="folder_name">
-					<div className="text">12154-454-454656458485458</div>
+					<input class="form-control form-control" type="text" placeholder="12154-454-454656458485458" />
 				</div>
 
 				<div className="document_heading">

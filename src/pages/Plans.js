@@ -79,7 +79,7 @@ const Plans = () => {
 										<span>2 Credit</span> per Certification
 									</p>
 									<p>
-										<span>2 Credit</span>per Qualified eSignature(QES)
+										<span>2 Credit</span> per Qualified eSignature(QES)
 									</p>
 								</div>
 								<div className="col-lg-4 mt-5 mt-lg-0">

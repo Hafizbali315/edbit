@@ -20,11 +20,22 @@ select.form-select-lg {
 	border-radius: 6px;
 	outline: none;
 	padding: 0 30px;
-
-	color: #203346;
+	color: rgba(32, 51, 70, 0.5);
 	font-weight: 500;
 	font-size: 18px;
 	text-transform: capitalize;
+
+	option {
+		color: rgba(32, 51, 70, 0.5);
+	}
+
+	&:focus {
+		color: rgba(32, 51, 70, 0.8);
+	}
+
+	&::placeholder {
+		color: rgba(32, 51, 70, 0.5);
+	}
 }
 
 .btn-primary {
@@ -64,6 +75,12 @@ select.form-select-lg {
 	padding: 0;
 }
 
+p {
+	opacity: 0.6 !important;
+	color: #203346;
+	font-size: 18px;
+}
+
 @include tablet-screen {
 	input.form-control-lg,
 	select.form-select-lg {
@@ -84,5 +101,9 @@ select.form-select-lg {
 		height: 50px;
 		font-size: 16px;
 		padding: 0 20px;
+	}
+
+	p {
+		font-size: 15px;
 	}
 }

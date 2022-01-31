@@ -18,9 +18,11 @@ const Page12 = () => {
 						<button className="btn btn-primary">Back to Overview</button>
 					</div>
 
-					<button className="btn btn-outline powered_btn">
-						Powered by <img src={Logo} alt="logo" />
-					</button>
+					<div className="powered_button">
+						<button>
+							Powered by <img src={Logo} alt="loog" />
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
