@@ -1,11 +1,11 @@
-import Header1 from './../components/Header1'
 import { BsCheckCircleFill } from 'react-icons/bs'
 import Logo from '../assets/Logo.png'
+import Header2 from './../components/Header2'
 
 const Page12 = () => {
 	return (
 		<div className="page_12">
-			<Header1 />
+			<Header2 />
 			<div className="page_12_container">
 				<div className="page_12_content">
 					<BsCheckCircleFill className="icon" />
